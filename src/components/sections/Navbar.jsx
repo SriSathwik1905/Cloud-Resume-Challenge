@@ -12,10 +12,10 @@ export default function Navbar() {
             <Lottie animationData={animationData} loop={true} />
           </div>
           <h1 className="ml-4 text-3xl font-bold text-white">
-            <span className="bg-gradient-to-r from-[#cceeff] to-[#ffdde1] bg-clip-text text-transparent">
-              Cloud
-            </span>{" "}
-            Resume
+            <span className="bg-gradient-to-r from-[#cceeff] to-[#ffdde1] bg-clip-text text-transparent mr-2">
+              The Cloud
+            </span>
+            <span className="text-glow">Resume Challenge</span>
           </h1>
         </div>
 

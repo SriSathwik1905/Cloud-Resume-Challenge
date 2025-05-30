@@ -118,3 +118,16 @@
     @apply bg-background text-foreground;
   }
 }
+@keyframes textGlow {
+  0%,
+  100% {
+    text-shadow: 0 0 6px #cceeff, 0 0 12px #ffdde1, 0 0 20px #ffdde1;
+  }
+  50% {
+    text-shadow: 0 0 12px #cceeff, 0 0 20px #ffdde1, 0 0 30px #ffdde1;
+  }
+}
+
+.text-glow {
+  animation: textGlow 3s ease-in-out infinite;
+}
